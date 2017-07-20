@@ -56,3 +56,12 @@ footer {
     width: 25%;
   }
 }
+@media screen
+  and (min-width: 320px)
+  and (max-width: 767px) {
+    #content-wrapper {
+      width: 90%;
+      background-color: blue;
+      margin: 0 auto;
+    }
+}
